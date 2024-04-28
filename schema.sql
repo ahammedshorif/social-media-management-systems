@@ -91,3 +91,44 @@ CREATE TABLE follows (
     FOREIGN KEY(followee_id) REFERENCES users(user_id),
     PRIMARY KEY(follower_id, followee_id)
 );
+
+--9.hashtags table
+
+CREATE TABLE hashtags (
+  hashtag_id INT PRIMARY KEY IDENTITY(1, 1),
+  hashtag_name VARCHAR(255) UNIQUE,
+  created_at TIMESTAMP
+);
+
+--10.hashtags follow table
+
+CREATE TABLE hashtag_follow (
+	user_id INT NOT NULL,
+    hashtag_id INT NOT NULL,
+    created_at TIMESTAMP,
+    FOREIGN KEY(user_id) REFERENCES users(user_id),
+    FOREIGN KEY(hashtag_id) REFERENCES hashtags(hashtag_id),
+    PRIMARY KEY(user_id, hashtag_id)
+);
+
+--11.bookmarks table
+
+CREATE TABLE bookmarks (
+  post_id INT NOT NULL,
+  user_id INT NOT NULL,
+  created_at TIMESTAMP,
+  FOREIGN KEY(post_id) REFERENCES post(post_id),
+  FOREIGN KEY(user_id) REFERENCES users(user_id),
+  PRIMARY KEY(user_id, post_id)
+);
+
+-- 12.login table
+
+CREATE TABLE login (
+  login_id INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+  user_id INT NOT NULL,
+  ip VARCHAR(50) NOT NULL,
+  login_time TIMESTAMP,
+  FOREIGN KEY(user_id) REFERENCES users(user_id)
+);
+
