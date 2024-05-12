@@ -1,0 +1,15 @@
+INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('great man',26,6);
+INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('looking greate bhai',22,17);
+INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('nice place keep enjoying',29,15);
+INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('briallant keep working',34,3);
+INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('soon will join you all',36,2);
+INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('nice man !! loved it',31,18);
+INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES (' Not enough for me, you are everything.',34,13);
+INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('You are a symbol of beauty.',27,19);
+INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('You mean the world to me.',28,10);
+INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('The word pretty is worthless without you.',24,4);
+INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('You are graceful.',25,8);
+INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('You look mesmerizing.',28,2);
+INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('You are so much lovely.',29,7);
+INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('I love your curly hair.',27,4);
+INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('Your dressing sense is appreciable.',35,1);

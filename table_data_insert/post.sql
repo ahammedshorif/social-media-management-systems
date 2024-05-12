@@ -1,0 +1,18 @@
+insert into post(photo_id, video_id,user_id,caption, location) values
+(25,63,14,'HEY','ctg'),
+(22,67,18,'Live a good story.', 'dhaka'),
+(27,67,17,'The best is yet to come.','ctg'),
+(24,62,13,'These are days we live for.', 'ctg'),
+(37,68,16,'Life happens, coffee helps.', 'ctg'),
+(33,62,9,'Short sassy cute & classy.','ctg.'),
+(30,70,6,'The future is bright.', 'ctg'),
+(35,71,7,'Namastay in bed.','ctg'),
+(23,74,4,'I have more issues than vogue.','ctg'),
+(38,72,5,'Life is short. Smile while you still have teeth.','dhaka'),
+(29,75,7,'Ah, a perfectly captured selfie!','ctg'),
+(24,73,20,'Lets just be who we are.','ctg'),
+(36,82,19,'One bad chapter doesnt me','cumilla'),
+(25,80,15,'Cinderella never asked for a prince.','ctg'),
+(37,87,3,'A selfie is worth a thousand words.','ctg'),
+(27,61,9,'Born to stand out with selfies.','ctg'),
+(31,77,1,'Im sorry I exist, here, a selfie.','ctg')
